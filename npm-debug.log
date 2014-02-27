@@ -1,0 +1,651 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.36
+3 info using node@v0.8.2
+4 verbose config file C:\Users\willb\.npmrc
+5 verbose config file c:\Program Files (x86)\nodejs\etc\npmrc
+6 verbose config file c:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+7 verbose read json c:\users\willb\desktop\csipub\package.json
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'c:\\users\\willb\\desktop\\csipub',
+9 verbose install   [ 'grunt',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-uglify',
+9 verbose install     'grunt-contrib-compass',
+9 verbose install     'grunt-contrib-jshint',
+9 verbose install     'grunt-contrib-cssmin',
+9 verbose install     'grunt-contrib-connect',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-htmlmin',
+9 verbose install     'grunt-bower-install',
+9 verbose install     'grunt-contrib-imagemin',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-rev',
+9 verbose install     'grunt-autoprefixer',
+9 verbose install     'grunt-usemin',
+9 verbose install     'grunt-mocha',
+9 verbose install     'grunt-modernizr',
+9 verbose install     'grunt-newer',
+9 verbose install     'grunt-svgmin',
+9 verbose install     'grunt-concurrent',
+9 verbose install     'load-grunt-tasks',
+9 verbose install     'time-grunt',
+9 verbose install     'jshint-stylish' ] ]
+10 verbose from cache c:\users\willb\desktop\csipub\package.json
+11 info preinstall csipublic@0.0.0
+12 verbose from cache c:\users\willb\desktop\csipub\package.json
+13 verbose readDependencies using package.json deps
+14 verbose cache add [ 'grunt-mocha@~0.4.0', null ]
+15 silly cache add name=undefined spec="grunt-mocha@~0.4.0" args=["grunt-mocha@~0.4.0",null]
+16 verbose parsed url { pathname: 'grunt-mocha@~0.4.0',
+16 verbose parsed url   path: 'grunt-mocha@~0.4.0',
+16 verbose parsed url   href: 'grunt-mocha@~0.4.0' }
+17 silly cache add name="grunt-mocha" spec="~0.4.0" args=["grunt-mocha","~0.4.0"]
+18 verbose parsed url { pathname: '~0.4.0', path: '~0.4.0', href: '~0.4.0' }
+19 verbose addNamed [ 'grunt-mocha', '~0.4.0' ]
+20 verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+21 verbose cache add [ 'grunt-modernizr@~0.4.0', null ]
+22 silly cache add name=undefined spec="grunt-modernizr@~0.4.0" args=["grunt-modernizr@~0.4.0",null]
+23 verbose parsed url { pathname: 'grunt-modernizr@~0.4.0',
+23 verbose parsed url   path: 'grunt-modernizr@~0.4.0',
+23 verbose parsed url   href: 'grunt-modernizr@~0.4.0' }
+24 silly cache add name="grunt-modernizr" spec="~0.4.0" args=["grunt-modernizr","~0.4.0"]
+25 verbose parsed url { pathname: '~0.4.0', path: '~0.4.0', href: '~0.4.0' }
+26 verbose addNamed [ 'grunt-modernizr', '~0.4.0' ]
+27 verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+28 verbose cache add [ 'grunt-contrib-uglify@~0.2.0', null ]
+29 silly cache add name=undefined spec="grunt-contrib-uglify@~0.2.0" args=["grunt-contrib-uglify@~0.2.0",null]
+30 verbose parsed url { pathname: 'grunt-contrib-uglify@~0.2.0',
+30 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.0',
+30 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.0' }
+31 silly cache add name="grunt-contrib-uglify" spec="~0.2.0" args=["grunt-contrib-uglify","~0.2.0"]
+32 verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+33 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.0' ]
+34 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+35 verbose cache add [ 'grunt-newer@~0.6.0', null ]
+36 silly cache add name=undefined spec="grunt-newer@~0.6.0" args=["grunt-newer@~0.6.0",null]
+37 verbose parsed url { pathname: 'grunt-newer@~0.6.0',
+37 verbose parsed url   path: 'grunt-newer@~0.6.0',
+37 verbose parsed url   href: 'grunt-newer@~0.6.0' }
+38 silly cache add name="grunt-newer" spec="~0.6.0" args=["grunt-newer","~0.6.0"]
+39 verbose parsed url { pathname: '~0.6.0', path: '~0.6.0', href: '~0.6.0' }
+40 verbose addNamed [ 'grunt-newer', '~0.6.0' ]
+41 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+42 verbose cache add [ 'grunt-contrib-compass@~0.7.0', null ]
+43 silly cache add name=undefined spec="grunt-contrib-compass@~0.7.0" args=["grunt-contrib-compass@~0.7.0",null]
+44 verbose parsed url { pathname: 'grunt-contrib-compass@~0.7.0',
+44 verbose parsed url   path: 'grunt-contrib-compass@~0.7.0',
+44 verbose parsed url   href: 'grunt-contrib-compass@~0.7.0' }
+45 silly cache add name="grunt-contrib-compass" spec="~0.7.0" args=["grunt-contrib-compass","~0.7.0"]
+46 verbose parsed url { pathname: '~0.7.0', path: '~0.7.0', href: '~0.7.0' }
+47 verbose addNamed [ 'grunt-contrib-compass', '~0.7.0' ]
+48 verbose addNamed [ null, '>=0.7.0- <0.8.0-' ]
+49 verbose cache add [ 'grunt-contrib-jshint@~0.7.0', null ]
+50 silly cache add name=undefined spec="grunt-contrib-jshint@~0.7.0" args=["grunt-contrib-jshint@~0.7.0",null]
+51 verbose parsed url { pathname: 'grunt-contrib-jshint@~0.7.0',
+51 verbose parsed url   path: 'grunt-contrib-jshint@~0.7.0',
+51 verbose parsed url   href: 'grunt-contrib-jshint@~0.7.0' }
+52 silly cache add name="grunt-contrib-jshint" spec="~0.7.0" args=["grunt-contrib-jshint","~0.7.0"]
+53 verbose parsed url { pathname: '~0.7.0', path: '~0.7.0', href: '~0.7.0' }
+54 verbose addNamed [ 'grunt-contrib-jshint', '~0.7.0' ]
+55 verbose addNamed [ null, '>=0.7.0- <0.8.0-' ]
+56 verbose cache add [ 'grunt-contrib-cssmin@~0.7.0', null ]
+57 silly cache add name=undefined spec="grunt-contrib-cssmin@~0.7.0" args=["grunt-contrib-cssmin@~0.7.0",null]
+58 verbose parsed url { pathname: 'grunt-contrib-cssmin@~0.7.0',
+58 verbose parsed url   path: 'grunt-contrib-cssmin@~0.7.0',
+58 verbose parsed url   href: 'grunt-contrib-cssmin@~0.7.0' }
+59 silly cache add name="grunt-contrib-cssmin" spec="~0.7.0" args=["grunt-contrib-cssmin","~0.7.0"]
+60 verbose parsed url { pathname: '~0.7.0', path: '~0.7.0', href: '~0.7.0' }
+61 verbose addNamed [ 'grunt-contrib-cssmin', '~0.7.0' ]
+62 verbose addNamed [ null, '>=0.7.0- <0.8.0-' ]
+63 verbose cache add [ 'grunt-contrib-connect@~0.5.0', null ]
+64 silly cache add name=undefined spec="grunt-contrib-connect@~0.5.0" args=["grunt-contrib-connect@~0.5.0",null]
+65 verbose parsed url { pathname: 'grunt-contrib-connect@~0.5.0',
+65 verbose parsed url   path: 'grunt-contrib-connect@~0.5.0',
+65 verbose parsed url   href: 'grunt-contrib-connect@~0.5.0' }
+66 silly cache add name="grunt-contrib-connect" spec="~0.5.0" args=["grunt-contrib-connect","~0.5.0"]
+67 verbose parsed url { pathname: '~0.5.0', path: '~0.5.0', href: '~0.5.0' }
+68 verbose addNamed [ 'grunt-contrib-connect', '~0.5.0' ]
+69 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+70 verbose cache add [ 'grunt-contrib-clean@~0.5.0', null ]
+71 silly cache add name=undefined spec="grunt-contrib-clean@~0.5.0" args=["grunt-contrib-clean@~0.5.0",null]
+72 verbose parsed url { pathname: 'grunt-contrib-clean@~0.5.0',
+72 verbose parsed url   path: 'grunt-contrib-clean@~0.5.0',
+72 verbose parsed url   href: 'grunt-contrib-clean@~0.5.0' }
+73 silly cache add name="grunt-contrib-clean" spec="~0.5.0" args=["grunt-contrib-clean","~0.5.0"]
+74 verbose parsed url { pathname: '~0.5.0', path: '~0.5.0', href: '~0.5.0' }
+75 verbose addNamed [ 'grunt-contrib-clean', '~0.5.0' ]
+76 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+77 verbose cache add [ 'grunt-contrib-htmlmin@~0.1.3', null ]
+78 silly cache add name=undefined spec="grunt-contrib-htmlmin@~0.1.3" args=["grunt-contrib-htmlmin@~0.1.3",null]
+79 verbose parsed url { pathname: 'grunt-contrib-htmlmin@~0.1.3',
+79 verbose parsed url   path: 'grunt-contrib-htmlmin@~0.1.3',
+79 verbose parsed url   href: 'grunt-contrib-htmlmin@~0.1.3' }
+80 silly cache add name="grunt-contrib-htmlmin" spec="~0.1.3" args=["grunt-contrib-htmlmin","~0.1.3"]
+81 verbose parsed url { pathname: '~0.1.3', path: '~0.1.3', href: '~0.1.3' }
+82 verbose addNamed [ 'grunt-contrib-htmlmin', '~0.1.3' ]
+83 verbose addNamed [ null, '>=0.1.3- <0.2.0-' ]
+84 verbose cache add [ 'grunt-bower-install@~0.7.0', null ]
+85 silly cache add name=undefined spec="grunt-bower-install@~0.7.0" args=["grunt-bower-install@~0.7.0",null]
+86 verbose parsed url { pathname: 'grunt-bower-install@~0.7.0',
+86 verbose parsed url   path: 'grunt-bower-install@~0.7.0',
+86 verbose parsed url   href: 'grunt-bower-install@~0.7.0' }
+87 silly cache add name="grunt-bower-install" spec="~0.7.0" args=["grunt-bower-install","~0.7.0"]
+88 verbose parsed url { pathname: '~0.7.0', path: '~0.7.0', href: '~0.7.0' }
+89 verbose addNamed [ 'grunt-bower-install', '~0.7.0' ]
+90 verbose addNamed [ null, '>=0.7.0- <0.8.0-' ]
+91 verbose cache add [ 'grunt-contrib-imagemin@~0.2.0', null ]
+92 silly cache add name=undefined spec="grunt-contrib-imagemin@~0.2.0" args=["grunt-contrib-imagemin@~0.2.0",null]
+93 verbose parsed url { pathname: 'grunt-contrib-imagemin@~0.2.0',
+93 verbose parsed url   path: 'grunt-contrib-imagemin@~0.2.0',
+93 verbose parsed url   href: 'grunt-contrib-imagemin@~0.2.0' }
+94 silly cache add name="grunt-contrib-imagemin" spec="~0.2.0" args=["grunt-contrib-imagemin","~0.2.0"]
+95 verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+96 verbose addNamed [ 'grunt-contrib-imagemin', '~0.2.0' ]
+97 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+98 verbose cache add [ 'grunt-contrib-watch@~0.5.2', null ]
+99 silly cache add name=undefined spec="grunt-contrib-watch@~0.5.2" args=["grunt-contrib-watch@~0.5.2",null]
+100 verbose parsed url { pathname: 'grunt-contrib-watch@~0.5.2',
+100 verbose parsed url   path: 'grunt-contrib-watch@~0.5.2',
+100 verbose parsed url   href: 'grunt-contrib-watch@~0.5.2' }
+101 silly cache add name="grunt-contrib-watch" spec="~0.5.2" args=["grunt-contrib-watch","~0.5.2"]
+102 verbose parsed url { pathname: '~0.5.2', path: '~0.5.2', href: '~0.5.2' }
+103 verbose addNamed [ 'grunt-contrib-watch', '~0.5.2' ]
+104 verbose addNamed [ null, '>=0.5.2- <0.6.0-' ]
+105 verbose cache add [ 'grunt-rev@~0.1.0', null ]
+106 silly cache add name=undefined spec="grunt-rev@~0.1.0" args=["grunt-rev@~0.1.0",null]
+107 verbose parsed url { pathname: 'grunt-rev@~0.1.0',
+107 verbose parsed url   path: 'grunt-rev@~0.1.0',
+107 verbose parsed url   href: 'grunt-rev@~0.1.0' }
+108 silly cache add name="grunt-rev" spec="~0.1.0" args=["grunt-rev","~0.1.0"]
+109 verbose parsed url { pathname: '~0.1.0', path: '~0.1.0', href: '~0.1.0' }
+110 verbose addNamed [ 'grunt-rev', '~0.1.0' ]
+111 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+112 verbose cache add [ 'grunt-autoprefixer@~0.5.0', null ]
+113 silly cache add name=undefined spec="grunt-autoprefixer@~0.5.0" args=["grunt-autoprefixer@~0.5.0",null]
+114 verbose parsed url { pathname: 'grunt-autoprefixer@~0.5.0',
+114 verbose parsed url   path: 'grunt-autoprefixer@~0.5.0',
+114 verbose parsed url   href: 'grunt-autoprefixer@~0.5.0' }
+115 silly cache add name="grunt-autoprefixer" spec="~0.5.0" args=["grunt-autoprefixer","~0.5.0"]
+116 verbose parsed url { pathname: '~0.5.0', path: '~0.5.0', href: '~0.5.0' }
+117 verbose addNamed [ 'grunt-autoprefixer', '~0.5.0' ]
+118 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+119 verbose cache add [ 'grunt-usemin@~2.0.0', null ]
+120 silly cache add name=undefined spec="grunt-usemin@~2.0.0" args=["grunt-usemin@~2.0.0",null]
+121 verbose parsed url { pathname: 'grunt-usemin@~2.0.0',
+121 verbose parsed url   path: 'grunt-usemin@~2.0.0',
+121 verbose parsed url   href: 'grunt-usemin@~2.0.0' }
+122 silly cache add name="grunt-usemin" spec="~2.0.0" args=["grunt-usemin","~2.0.0"]
+123 verbose parsed url { pathname: '~2.0.0', path: '~2.0.0', href: '~2.0.0' }
+124 verbose addNamed [ 'grunt-usemin', '~2.0.0' ]
+125 verbose addNamed [ null, '>=2.0.0- <2.1.0-' ]
+126 silly lockFile 4854fb45-grunt-mocha-0-4-0 grunt-mocha@~0.4.0
+127 verbose lock grunt-mocha@~0.4.0 C:\Users\willb\AppData\Roaming\npm-cache\4854fb45-grunt-mocha-0-4-0.lock
+128 silly lockFile f9db92e6-grunt-modernizr-0-4-0 grunt-modernizr@~0.4.0
+129 verbose lock grunt-modernizr@~0.4.0 C:\Users\willb\AppData\Roaming\npm-cache\f9db92e6-grunt-modernizr-0-4-0.lock
+130 silly lockFile 2cc6dac2-grunt-contrib-uglify-0-2-0 grunt-contrib-uglify@~0.2.0
+131 verbose lock grunt-contrib-uglify@~0.2.0 C:\Users\willb\AppData\Roaming\npm-cache\2cc6dac2-grunt-contrib-uglify-0-2-0.lock
+132 silly lockFile c36710c7-grunt-newer-0-6-0 grunt-newer@~0.6.0
+133 verbose lock grunt-newer@~0.6.0 C:\Users\willb\AppData\Roaming\npm-cache\c36710c7-grunt-newer-0-6-0.lock
+134 silly lockFile 089c3a2f-grunt-contrib-compass-0-7-0 grunt-contrib-compass@~0.7.0
+135 verbose lock grunt-contrib-compass@~0.7.0 C:\Users\willb\AppData\Roaming\npm-cache\089c3a2f-grunt-contrib-compass-0-7-0.lock
+136 silly lockFile c1ebcc7c-grunt-contrib-jshint-0-7-0 grunt-contrib-jshint@~0.7.0
+137 verbose lock grunt-contrib-jshint@~0.7.0 C:\Users\willb\AppData\Roaming\npm-cache\c1ebcc7c-grunt-contrib-jshint-0-7-0.lock
+138 silly lockFile 77b758e3-grunt-contrib-cssmin-0-7-0 grunt-contrib-cssmin@~0.7.0
+139 verbose lock grunt-contrib-cssmin@~0.7.0 C:\Users\willb\AppData\Roaming\npm-cache\77b758e3-grunt-contrib-cssmin-0-7-0.lock
+140 silly lockFile bc7bae3b-grunt-contrib-connect-0-5-0 grunt-contrib-connect@~0.5.0
+141 verbose lock grunt-contrib-connect@~0.5.0 C:\Users\willb\AppData\Roaming\npm-cache\bc7bae3b-grunt-contrib-connect-0-5-0.lock
+142 silly lockFile 83f743bc-grunt-contrib-clean-0-5-0 grunt-contrib-clean@~0.5.0
+143 verbose lock grunt-contrib-clean@~0.5.0 C:\Users\willb\AppData\Roaming\npm-cache\83f743bc-grunt-contrib-clean-0-5-0.lock
+144 silly lockFile 2f1223f9-grunt-contrib-htmlmin-0-1-3 grunt-contrib-htmlmin@~0.1.3
+145 verbose lock grunt-contrib-htmlmin@~0.1.3 C:\Users\willb\AppData\Roaming\npm-cache\2f1223f9-grunt-contrib-htmlmin-0-1-3.lock
+146 silly lockFile 26c9e109-grunt-bower-install-0-7-0 grunt-bower-install@~0.7.0
+147 verbose lock grunt-bower-install@~0.7.0 C:\Users\willb\AppData\Roaming\npm-cache\26c9e109-grunt-bower-install-0-7-0.lock
+148 silly lockFile 65f7368c-grunt-contrib-imagemin-0-2-0 grunt-contrib-imagemin@~0.2.0
+149 verbose lock grunt-contrib-imagemin@~0.2.0 C:\Users\willb\AppData\Roaming\npm-cache\65f7368c-grunt-contrib-imagemin-0-2-0.lock
+150 silly lockFile a6069a13-grunt-contrib-watch-0-5-2 grunt-contrib-watch@~0.5.2
+151 verbose lock grunt-contrib-watch@~0.5.2 C:\Users\willb\AppData\Roaming\npm-cache\a6069a13-grunt-contrib-watch-0-5-2.lock
+152 silly lockFile a3a49760-grunt-rev-0-1-0 grunt-rev@~0.1.0
+153 verbose lock grunt-rev@~0.1.0 C:\Users\willb\AppData\Roaming\npm-cache\a3a49760-grunt-rev-0-1-0.lock
+154 silly lockFile 4e39e220-grunt-autoprefixer-0-5-0 grunt-autoprefixer@~0.5.0
+155 verbose lock grunt-autoprefixer@~0.5.0 C:\Users\willb\AppData\Roaming\npm-cache\4e39e220-grunt-autoprefixer-0-5-0.lock
+156 silly lockFile d4f70bcd-grunt-usemin-2-0-0 grunt-usemin@~2.0.0
+157 verbose lock grunt-usemin@~2.0.0 C:\Users\willb\AppData\Roaming\npm-cache\d4f70bcd-grunt-usemin-2-0-0.lock
+158 silly addNameRange { name: 'grunt-mocha',
+158 silly addNameRange   range: '>=0.4.0- <0.5.0-',
+158 silly addNameRange   hasData: false }
+159 silly addNameRange { name: 'grunt-modernizr',
+159 silly addNameRange   range: '>=0.4.0- <0.5.0-',
+159 silly addNameRange   hasData: false }
+160 silly addNameRange { name: 'grunt-contrib-uglify',
+160 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+160 silly addNameRange   hasData: false }
+161 silly addNameRange { name: 'grunt-contrib-compass',
+161 silly addNameRange   range: '>=0.7.0- <0.8.0-',
+161 silly addNameRange   hasData: false }
+162 silly addNameRange { name: 'grunt-contrib-jshint',
+162 silly addNameRange   range: '>=0.7.0- <0.8.0-',
+162 silly addNameRange   hasData: false }
+163 silly addNameRange { name: 'grunt-contrib-connect',
+163 silly addNameRange   range: '>=0.5.0- <0.6.0-',
+163 silly addNameRange   hasData: false }
+164 silly addNameRange { name: 'grunt-contrib-clean',
+164 silly addNameRange   range: '>=0.5.0- <0.6.0-',
+164 silly addNameRange   hasData: false }
+165 silly addNameRange { name: 'grunt-contrib-cssmin',
+165 silly addNameRange   range: '>=0.7.0- <0.8.0-',
+165 silly addNameRange   hasData: false }
+166 silly addNameRange { name: 'grunt-contrib-imagemin',
+166 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+166 silly addNameRange   hasData: false }
+167 silly addNameRange { name: 'grunt-contrib-htmlmin',
+167 silly addNameRange   range: '>=0.1.3- <0.2.0-',
+167 silly addNameRange   hasData: false }
+168 silly addNameRange { name: 'grunt-bower-install',
+168 silly addNameRange   range: '>=0.7.0- <0.8.0-',
+168 silly addNameRange   hasData: false }
+169 silly addNameRange { name: 'grunt-contrib-watch',
+169 silly addNameRange   range: '>=0.5.2- <0.6.0-',
+169 silly addNameRange   hasData: false }
+170 silly addNameRange { name: 'grunt-rev', range: '>=0.1.0- <0.2.0-', hasData: false }
+171 silly addNameRange { name: 'grunt-newer',
+171 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+171 silly addNameRange   hasData: false }
+172 silly addNameRange { name: 'grunt-autoprefixer',
+172 silly addNameRange   range: '>=0.5.0- <0.6.0-',
+172 silly addNameRange   hasData: false }
+173 silly addNameRange { name: 'grunt-usemin',
+173 silly addNameRange   range: '>=2.0.0- <2.1.0-',
+173 silly addNameRange   hasData: false }
+174 verbose url raw grunt-mocha
+175 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha' ]
+176 verbose url resolved https://registry.npmjs.org/grunt-mocha
+177 info retry registry request attempt 1 at 08:18:08
+178 http GET https://registry.npmjs.org/grunt-mocha
+179 verbose url raw grunt-modernizr
+180 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-modernizr' ]
+181 verbose url resolved https://registry.npmjs.org/grunt-modernizr
+182 info retry registry request attempt 1 at 08:18:08
+183 http GET https://registry.npmjs.org/grunt-modernizr
+184 verbose url raw grunt-contrib-compass
+185 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compass' ]
+186 verbose url resolved https://registry.npmjs.org/grunt-contrib-compass
+187 info retry registry request attempt 1 at 08:18:08
+188 http GET https://registry.npmjs.org/grunt-contrib-compass
+189 verbose cache add [ 'grunt-svgmin@~0.2.0', null ]
+190 silly cache add name=undefined spec="grunt-svgmin@~0.2.0" args=["grunt-svgmin@~0.2.0",null]
+191 verbose parsed url { pathname: 'grunt-svgmin@~0.2.0',
+191 verbose parsed url   path: 'grunt-svgmin@~0.2.0',
+191 verbose parsed url   href: 'grunt-svgmin@~0.2.0' }
+192 silly cache add name="grunt-svgmin" spec="~0.2.0" args=["grunt-svgmin","~0.2.0"]
+193 verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+194 verbose addNamed [ 'grunt-svgmin', '~0.2.0' ]
+195 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+196 silly lockFile fefef466-grunt-svgmin-0-2-0 grunt-svgmin@~0.2.0
+197 verbose lock grunt-svgmin@~0.2.0 C:\Users\willb\AppData\Roaming\npm-cache\fefef466-grunt-svgmin-0-2-0.lock
+198 verbose cache add [ 'grunt-concurrent@~0.4.0', null ]
+199 silly cache add name=undefined spec="grunt-concurrent@~0.4.0" args=["grunt-concurrent@~0.4.0",null]
+200 verbose parsed url { pathname: 'grunt-concurrent@~0.4.0',
+200 verbose parsed url   path: 'grunt-concurrent@~0.4.0',
+200 verbose parsed url   href: 'grunt-concurrent@~0.4.0' }
+201 silly cache add name="grunt-concurrent" spec="~0.4.0" args=["grunt-concurrent","~0.4.0"]
+202 verbose parsed url { pathname: '~0.4.0', path: '~0.4.0', href: '~0.4.0' }
+203 verbose addNamed [ 'grunt-concurrent', '~0.4.0' ]
+204 verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+205 silly lockFile 7dd5095f-grunt-concurrent-0-4-0 grunt-concurrent@~0.4.0
+206 verbose lock grunt-concurrent@~0.4.0 C:\Users\willb\AppData\Roaming\npm-cache\7dd5095f-grunt-concurrent-0-4-0.lock
+207 verbose cache add [ 'load-grunt-tasks@~0.2.0', null ]
+208 silly cache add name=undefined spec="load-grunt-tasks@~0.2.0" args=["load-grunt-tasks@~0.2.0",null]
+209 verbose parsed url { pathname: 'load-grunt-tasks@~0.2.0',
+209 verbose parsed url   path: 'load-grunt-tasks@~0.2.0',
+209 verbose parsed url   href: 'load-grunt-tasks@~0.2.0' }
+210 silly cache add name="load-grunt-tasks" spec="~0.2.0" args=["load-grunt-tasks","~0.2.0"]
+211 verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+212 verbose addNamed [ 'load-grunt-tasks', '~0.2.0' ]
+213 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+214 silly lockFile 2a94459b-load-grunt-tasks-0-2-0 load-grunt-tasks@~0.2.0
+215 verbose lock load-grunt-tasks@~0.2.0 C:\Users\willb\AppData\Roaming\npm-cache\2a94459b-load-grunt-tasks-0-2-0.lock
+216 verbose cache add [ 'time-grunt@~0.2.0', null ]
+217 silly cache add name=undefined spec="time-grunt@~0.2.0" args=["time-grunt@~0.2.0",null]
+218 verbose parsed url { pathname: 'time-grunt@~0.2.0',
+218 verbose parsed url   path: 'time-grunt@~0.2.0',
+218 verbose parsed url   href: 'time-grunt@~0.2.0' }
+219 silly cache add name="time-grunt" spec="~0.2.0" args=["time-grunt","~0.2.0"]
+220 verbose parsed url { pathname: '~0.2.0', path: '~0.2.0', href: '~0.2.0' }
+221 verbose addNamed [ 'time-grunt', '~0.2.0' ]
+222 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+223 silly lockFile 8738474a-time-grunt-0-2-0 time-grunt@~0.2.0
+224 verbose lock time-grunt@~0.2.0 C:\Users\willb\AppData\Roaming\npm-cache\8738474a-time-grunt-0-2-0.lock
+225 verbose cache add [ 'jshint-stylish@~0.1.3', null ]
+226 silly cache add name=undefined spec="jshint-stylish@~0.1.3" args=["jshint-stylish@~0.1.3",null]
+227 verbose parsed url { pathname: 'jshint-stylish@~0.1.3',
+227 verbose parsed url   path: 'jshint-stylish@~0.1.3',
+227 verbose parsed url   href: 'jshint-stylish@~0.1.3' }
+228 silly cache add name="jshint-stylish" spec="~0.1.3" args=["jshint-stylish","~0.1.3"]
+229 verbose parsed url { pathname: '~0.1.3', path: '~0.1.3', href: '~0.1.3' }
+230 verbose addNamed [ 'jshint-stylish', '~0.1.3' ]
+231 verbose addNamed [ null, '>=0.1.3- <0.2.0-' ]
+232 silly lockFile fe42dd62-jshint-stylish-0-1-3 jshint-stylish@~0.1.3
+233 verbose lock jshint-stylish@~0.1.3 C:\Users\willb\AppData\Roaming\npm-cache\fe42dd62-jshint-stylish-0-1-3.lock
+234 verbose cache add [ 'grunt@~0.4.1', null ]
+235 silly cache add name=undefined spec="grunt@~0.4.1" args=["grunt@~0.4.1",null]
+236 verbose parsed url { pathname: 'grunt@~0.4.1',
+236 verbose parsed url   path: 'grunt@~0.4.1',
+236 verbose parsed url   href: 'grunt@~0.4.1' }
+237 silly cache add name="grunt" spec="~0.4.1" args=["grunt","~0.4.1"]
+238 verbose parsed url { pathname: '~0.4.1', path: '~0.4.1', href: '~0.4.1' }
+239 verbose addNamed [ 'grunt', '~0.4.1' ]
+240 verbose addNamed [ null, '>=0.4.1- <0.5.0-' ]
+241 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+242 verbose lock grunt@~0.4.1 C:\Users\willb\AppData\Roaming\npm-cache\766a3bd3-grunt-0-4-1.lock
+243 verbose cache add [ 'grunt-contrib-copy@~0.4.1', null ]
+244 silly cache add name=undefined spec="grunt-contrib-copy@~0.4.1" args=["grunt-contrib-copy@~0.4.1",null]
+245 verbose parsed url { pathname: 'grunt-contrib-copy@~0.4.1',
+245 verbose parsed url   path: 'grunt-contrib-copy@~0.4.1',
+245 verbose parsed url   href: 'grunt-contrib-copy@~0.4.1' }
+246 silly cache add name="grunt-contrib-copy" spec="~0.4.1" args=["grunt-contrib-copy","~0.4.1"]
+247 verbose parsed url { pathname: '~0.4.1', path: '~0.4.1', href: '~0.4.1' }
+248 verbose addNamed [ 'grunt-contrib-copy', '~0.4.1' ]
+249 verbose addNamed [ null, '>=0.4.1- <0.5.0-' ]
+250 silly lockFile c84f658a-grunt-contrib-copy-0-4-1 grunt-contrib-copy@~0.4.1
+251 verbose lock grunt-contrib-copy@~0.4.1 C:\Users\willb\AppData\Roaming\npm-cache\c84f658a-grunt-contrib-copy-0-4-1.lock
+252 verbose cache add [ 'grunt-contrib-concat@~0.3.0', null ]
+253 silly cache add name=undefined spec="grunt-contrib-concat@~0.3.0" args=["grunt-contrib-concat@~0.3.0",null]
+254 verbose parsed url { pathname: 'grunt-contrib-concat@~0.3.0',
+254 verbose parsed url   path: 'grunt-contrib-concat@~0.3.0',
+254 verbose parsed url   href: 'grunt-contrib-concat@~0.3.0' }
+255 silly cache add name="grunt-contrib-concat" spec="~0.3.0" args=["grunt-contrib-concat","~0.3.0"]
+256 verbose parsed url { pathname: '~0.3.0', path: '~0.3.0', href: '~0.3.0' }
+257 verbose addNamed [ 'grunt-contrib-concat', '~0.3.0' ]
+258 verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+259 silly lockFile 0e44e68e-grunt-contrib-concat-0-3-0 grunt-contrib-concat@~0.3.0
+260 verbose lock grunt-contrib-concat@~0.3.0 C:\Users\willb\AppData\Roaming\npm-cache\0e44e68e-grunt-contrib-concat-0-3-0.lock
+261 verbose url raw grunt-contrib-connect
+262 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+263 verbose url resolved https://registry.npmjs.org/grunt-contrib-connect
+264 info retry registry request attempt 1 at 08:18:08
+265 http GET https://registry.npmjs.org/grunt-contrib-connect
+266 verbose url raw grunt-contrib-cssmin
+267 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+268 verbose url resolved https://registry.npmjs.org/grunt-contrib-cssmin
+269 info retry registry request attempt 1 at 08:18:08
+270 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+271 verbose url raw grunt-contrib-imagemin
+272 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+273 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+274 info retry registry request attempt 1 at 08:18:08
+275 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+276 verbose url raw grunt-contrib-htmlmin
+277 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-htmlmin' ]
+278 verbose url resolved https://registry.npmjs.org/grunt-contrib-htmlmin
+279 info retry registry request attempt 1 at 08:18:08
+280 http GET https://registry.npmjs.org/grunt-contrib-htmlmin
+281 verbose url raw grunt-bower-install
+282 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-bower-install' ]
+283 verbose url resolved https://registry.npmjs.org/grunt-bower-install
+284 info retry registry request attempt 1 at 08:18:08
+285 http GET https://registry.npmjs.org/grunt-bower-install
+286 verbose url raw grunt-rev
+287 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-rev' ]
+288 verbose url resolved https://registry.npmjs.org/grunt-rev
+289 info retry registry request attempt 1 at 08:18:08
+290 http GET https://registry.npmjs.org/grunt-rev
+291 verbose url raw grunt-newer
+292 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-newer' ]
+293 verbose url resolved https://registry.npmjs.org/grunt-newer
+294 info retry registry request attempt 1 at 08:18:08
+295 http GET https://registry.npmjs.org/grunt-newer
+296 verbose url raw grunt-autoprefixer
+297 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-autoprefixer' ]
+298 verbose url resolved https://registry.npmjs.org/grunt-autoprefixer
+299 info retry registry request attempt 1 at 08:18:08
+300 http GET https://registry.npmjs.org/grunt-autoprefixer
+301 verbose url raw grunt-usemin
+302 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-usemin' ]
+303 verbose url resolved https://registry.npmjs.org/grunt-usemin
+304 info retry registry request attempt 1 at 08:18:08
+305 http GET https://registry.npmjs.org/grunt-usemin
+306 silly addNameRange { name: 'grunt-concurrent',
+306 silly addNameRange   range: '>=0.4.0- <0.5.0-',
+306 silly addNameRange   hasData: false }
+307 silly addNameRange { name: 'load-grunt-tasks',
+307 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+307 silly addNameRange   hasData: false }
+308 silly addNameRange { name: 'time-grunt', range: '>=0.2.0- <0.3.0-', hasData: false }
+309 silly addNameRange { name: 'jshint-stylish',
+309 silly addNameRange   range: '>=0.1.3- <0.2.0-',
+309 silly addNameRange   hasData: false }
+310 silly addNameRange { name: 'grunt-svgmin',
+310 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+310 silly addNameRange   hasData: false }
+311 silly addNameRange { name: 'grunt', range: '>=0.4.1- <0.5.0-', hasData: false }
+312 silly addNameRange { name: 'grunt-contrib-copy',
+312 silly addNameRange   range: '>=0.4.1- <0.5.0-',
+312 silly addNameRange   hasData: false }
+313 silly addNameRange { name: 'grunt-contrib-concat',
+313 silly addNameRange   range: '>=0.3.0- <0.4.0-',
+313 silly addNameRange   hasData: false }
+314 verbose url raw grunt-concurrent
+315 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-concurrent' ]
+316 verbose url resolved https://registry.npmjs.org/grunt-concurrent
+317 info retry registry request attempt 1 at 08:18:08
+318 http GET https://registry.npmjs.org/grunt-concurrent
+319 verbose url raw load-grunt-tasks
+320 verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+321 verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+322 info retry registry request attempt 1 at 08:18:08
+323 http GET https://registry.npmjs.org/load-grunt-tasks
+324 verbose url raw time-grunt
+325 verbose url resolving [ 'https://registry.npmjs.org/', './time-grunt' ]
+326 verbose url resolved https://registry.npmjs.org/time-grunt
+327 info retry registry request attempt 1 at 08:18:08
+328 http GET https://registry.npmjs.org/time-grunt
+329 verbose url raw jshint-stylish
+330 verbose url resolving [ 'https://registry.npmjs.org/', './jshint-stylish' ]
+331 verbose url resolved https://registry.npmjs.org/jshint-stylish
+332 info retry registry request attempt 1 at 08:18:08
+333 http GET https://registry.npmjs.org/jshint-stylish
+334 verbose url raw grunt-svgmin
+335 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-svgmin' ]
+336 verbose url resolved https://registry.npmjs.org/grunt-svgmin
+337 info retry registry request attempt 1 at 08:18:08
+338 http GET https://registry.npmjs.org/grunt-svgmin
+339 verbose url raw grunt-contrib-uglify
+340 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+341 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+342 info retry registry request attempt 1 at 08:18:08
+343 verbose etag "8UPJA259NNO7UFBNZQXLH62KD"
+344 http GET https://registry.npmjs.org/grunt-contrib-uglify
+345 verbose url raw grunt-contrib-jshint
+346 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+347 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+348 info retry registry request attempt 1 at 08:18:08
+349 verbose etag "153ANKAFUVM5A75F13MJ0PNTP"
+350 http GET https://registry.npmjs.org/grunt-contrib-jshint
+351 verbose url raw grunt-contrib-clean
+352 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-clean' ]
+353 verbose url resolved https://registry.npmjs.org/grunt-contrib-clean
+354 info retry registry request attempt 1 at 08:18:08
+355 verbose etag "6KUGO55NVR6DEOUSLXDMA057B"
+356 http GET https://registry.npmjs.org/grunt-contrib-clean
+357 verbose url raw grunt-contrib-watch
+358 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+359 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+360 info retry registry request attempt 1 at 08:18:08
+361 verbose etag "DSPRYY3Z7JW7NS3RG8I01YG8T"
+362 http GET https://registry.npmjs.org/grunt-contrib-watch
+363 verbose url raw grunt-contrib-copy
+364 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-copy' ]
+365 verbose url resolved https://registry.npmjs.org/grunt-contrib-copy
+366 info retry registry request attempt 1 at 08:18:08
+367 verbose etag "O5TILD718JALFGOGBIA6LAB1"
+368 http GET https://registry.npmjs.org/grunt-contrib-copy
+369 verbose url raw grunt-contrib-concat
+370 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-concat' ]
+371 verbose url resolved https://registry.npmjs.org/grunt-contrib-concat
+372 info retry registry request attempt 1 at 08:18:08
+373 verbose etag "2JY2NYSDMZE4GJZ0LSUIQ3LB6"
+374 http GET https://registry.npmjs.org/grunt-contrib-concat
+375 verbose url raw grunt
+376 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+377 verbose url resolved https://registry.npmjs.org/grunt
+378 info retry registry request attempt 1 at 08:18:08
+379 verbose etag "8DCUEI77HA1VBCVHQLSMYEY3S"
+380 http GET https://registry.npmjs.org/grunt
+381 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+382 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+383 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+384 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+385 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+386 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+387 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+388 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+389 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+390 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+391 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+392 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+393 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+394 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+395 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+396 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+397 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+398 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+399 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+400 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+401 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+402 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+403 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+404 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+405 info retry registry request attempt 2 at 08:18:19
+406 http GET https://registry.npmjs.org/grunt-contrib-connect
+407 info retry registry request attempt 2 at 08:18:19
+408 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+409 info retry registry request attempt 2 at 08:18:19
+410 http GET https://registry.npmjs.org/grunt-modernizr
+411 info retry registry request attempt 2 at 08:18:19
+412 http GET https://registry.npmjs.org/grunt-contrib-compass
+413 info retry registry request attempt 2 at 08:18:19
+414 http GET https://registry.npmjs.org/grunt-mocha
+415 info retry registry request attempt 2 at 08:18:19
+416 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+417 info retry registry request attempt 2 at 08:18:19
+418 http GET https://registry.npmjs.org/grunt-contrib-htmlmin
+419 info retry registry request attempt 2 at 08:18:19
+420 http GET https://registry.npmjs.org/grunt-rev
+421 info retry registry request attempt 2 at 08:18:19
+422 http GET https://registry.npmjs.org/grunt-newer
+423 info retry registry request attempt 2 at 08:18:19
+424 http GET https://registry.npmjs.org/grunt-autoprefixer
+425 info retry registry request attempt 2 at 08:18:19
+426 http GET https://registry.npmjs.org/grunt-bower-install
+427 info retry registry request attempt 2 at 08:18:19
+428 http GET https://registry.npmjs.org/grunt-usemin
+429 info retry registry request attempt 2 at 08:18:19
+430 http GET https://registry.npmjs.org/grunt-concurrent
+431 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+432 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+433 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+434 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+435 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+436 info retry registry request attempt 2 at 08:18:19
+437 http GET https://registry.npmjs.org/time-grunt
+438 info retry registry request attempt 2 at 08:18:19
+439 http GET https://registry.npmjs.org/load-grunt-tasks
+440 info retry registry request attempt 2 at 08:18:19
+441 http GET https://registry.npmjs.org/grunt-svgmin
+442 info retry registry request attempt 2 at 08:18:19
+443 http GET https://registry.npmjs.org/jshint-stylish
+444 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+445 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+446 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+447 info retry registry request attempt 2 at 08:18:19
+448 verbose etag "153ANKAFUVM5A75F13MJ0PNTP"
+449 http GET https://registry.npmjs.org/grunt-contrib-jshint
+450 info retry registry request attempt 2 at 08:18:19
+451 verbose etag "8UPJA259NNO7UFBNZQXLH62KD"
+452 http GET https://registry.npmjs.org/grunt-contrib-uglify
+453 info retry registry request attempt 2 at 08:18:19
+454 verbose etag "DSPRYY3Z7JW7NS3RG8I01YG8T"
+455 http GET https://registry.npmjs.org/grunt-contrib-watch
+456 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+457 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+458 info retry registry request attempt 2 at 08:18:19
+459 verbose etag "O5TILD718JALFGOGBIA6LAB1"
+460 http GET https://registry.npmjs.org/grunt-contrib-copy
+461 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+462 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+463 info retry registry request attempt 2 at 08:18:19
+464 verbose etag "2JY2NYSDMZE4GJZ0LSUIQ3LB6"
+465 http GET https://registry.npmjs.org/grunt-contrib-concat
+466 info retry registry request attempt 2 at 08:18:19
+467 verbose etag "6KUGO55NVR6DEOUSLXDMA057B"
+468 http GET https://registry.npmjs.org/grunt-contrib-clean
+469 info retry registry request attempt 2 at 08:18:19
+470 verbose etag "8DCUEI77HA1VBCVHQLSMYEY3S"
+471 http GET https://registry.npmjs.org/grunt
+472 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+473 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+474 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+475 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+476 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+477 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+478 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+479 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+480 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+481 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+482 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+483 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+484 info retry registry request attempt 3 at 08:19:19
+485 http GET https://registry.npmjs.org/grunt-contrib-connect
+486 info retry registry request attempt 3 at 08:19:19
+487 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+488 info retry registry request attempt 3 at 08:19:19
+489 http GET https://registry.npmjs.org/grunt-modernizr
+490 info retry registry request attempt 3 at 08:19:19
+491 http GET https://registry.npmjs.org/grunt-contrib-compass
+492 info retry registry request attempt 3 at 08:19:19
+493 http GET https://registry.npmjs.org/grunt-mocha
+494 info retry registry request attempt 3 at 08:19:19
+495 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+496 info retry registry request attempt 3 at 08:19:19
+497 http GET https://registry.npmjs.org/grunt-contrib-htmlmin
+498 info retry registry request attempt 3 at 08:19:19
+499 http GET https://registry.npmjs.org/grunt-rev
+500 info retry registry request attempt 3 at 08:19:19
+501 http GET https://registry.npmjs.org/grunt-newer
+502 info retry registry request attempt 3 at 08:19:19
+503 http GET https://registry.npmjs.org/grunt-autoprefixer
+504 info retry registry request attempt 3 at 08:19:19
+505 http GET https://registry.npmjs.org/grunt-bower-install
+506 info retry registry request attempt 3 at 08:19:19
+507 http GET https://registry.npmjs.org/grunt-usemin
+508 info retry registry request attempt 3 at 08:19:19
+509 http GET https://registry.npmjs.org/grunt-concurrent
+510 silly lockFile 4854fb45-grunt-mocha-0-4-0 grunt-mocha@~0.4.0
+511 silly lockFile f9db92e6-grunt-modernizr-0-4-0 grunt-modernizr@~0.4.0
+512 error Error: SSL Error: CERT_UNTRUSTED
+512 error     at ClientRequest.<anonymous> (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\main.js:440:26)
+512 error     at ClientRequest.g (events.js:185:14)
+512 error     at ClientRequest.EventEmitter.emit (events.js:88:17)
+512 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1445:7)
+512 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+512 error     at CleartextStream.socketOnData [as ondata] (http.js:1356:20)
+512 error     at CleartextStream.CryptoStream._push (tls.js:396:27)
+512 error     at SecurePair.cycle (tls.js:750:20)
+512 error     at EncryptedStream.CryptoStream.write (tls.js:131:13)
+512 error     at Socket.ondata (stream.js:38:26)
+512 error  [Error: SSL Error: CERT_UNTRUSTED]
+513 error You may report this log at:
+513 error     <http://github.com/isaacs/npm/issues>
+513 error or email it to:
+513 error     <npm-@googlegroups.com>
+514 error System Windows_NT 6.1.7601
+515 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+516 error cwd c:\users\willb\desktop\csipub
+517 error node -v v0.8.2
+518 error npm -v 1.1.36
+519 error message SSL Error: CERT_UNTRUSTED
+520 verbose exit [ 1, true ]

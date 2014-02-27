@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 body, html, .jumbotron-full-height {
 	height: 100%;
 	margin-bottom: 0;
@@ -73,11 +77,10 @@ body.fixed-menu {
 }
 
 .jumbotron-full-height {
-	max-height: 800px;
 	position: relative;
 }
 
-.jumbotron-full-height h1, .jumbotron-full-height p {
+.jumbotron-full-height h1, .jumbotron-full-height p, .jumbotron-full-height div {
 	text-align: center;
 	z-index: 1;
 	position: relative;
@@ -87,6 +90,9 @@ body.fixed-menu {
 	-o-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.jumbotron-full-height h1, .jumbotron-full-height p {
 	color: #000;
 	text-shadow: 1px 1px 0px #fff;
 }
@@ -111,3 +117,24 @@ body.fixed-menu {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+
+.footer {
+	background: #555;
+	width: 100%;
+}
+
+
+.center-content {
+	text-align: center;
+}
+
+.pull-content-right {
+	text-align: right;
+}
+
+.btn-lg {
+	font-size: 32px !important;
+}
+
+

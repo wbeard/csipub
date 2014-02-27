@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>csipublic</title>
+        <title>CollectorSolutions - Tax Collector, Utility & Municipality Payment Processor</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -16,6 +16,7 @@
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="styles/main.css">
@@ -23,36 +24,36 @@
         <script src="bower_components/modernizr/modernizr.js"></script>
 
     </head>
-    <body class="fixed-menu">
+    <body class="fixed-menu" data-spy="scroll" data-target="#navbarMenu" data-offset="50">
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-            <header id="header">
+    <header id="header">
         <div class="container">
             <nav class="navbar navbar-default" id="nav" role="navigation">
                 <div class="navbar-header">
-                    <button class="navbar-toggle" data-target=".navbar-header-collapse" data-toggle="collapse" type="button">
+                    <button id="navMenu" class="navbar-toggle" data-target=".navbar-header-collapse" data-toggle="collapse" type="button">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                        Menu <i class="fa fa-caret-down"></i>
                     </button>
-
                     <a class="navbar-brand logo-animate" href="#top">
-                        
-                            <img src="http://willbeard.wpengine.com/wp-content/uploads/2013/12/csiicon.png" width="40" height="40">
-                            CollectorSolutions
-
-                                            </a>
+                        <img src="http://willbeard.wpengine.com/wp-content/uploads/2013/12/csiicon.png" width="40" height="40">
+                        <span class="hidden-xs">CollectorSolutions</span>
+                    </a>
                 </div>
-
-                <div class="collapse navbar-collapse navbar-header-collapse">
+                <div id="navbarMenu" class="collapse navbar-collapse navbar-header-collapse">
                     <ul id="menu-menu-1" class="nav navbar-nav navbar-right">
                         <li class="active">
                             <a href="#top" class="dropdown-toggle" data-delay="50" data-hover="dropdown">
                                 <span>
                                     Home
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#solution" class="dropdown-toggle" data-delay="50" data-hover="dropdown">
+                                <span>
+                                    Solution
                                 </span>
                             </a>
                         </li>
@@ -63,44 +64,41 @@
                                 </span>
                             </a>
                         </li>
-<li class=""><a href="#solution" class="dropdown-toggle" data-delay="50" data-hover="dropdown"><span>
-                  Solution
-                </span></a></li>
-<li class=""><a href="#service" class="dropdown-toggle" data-delay="50" data-hover="dropdown"><span>
-                  Service
-                </span></a></li>
-<li class=""><a href="#support" class="dropdown-toggle" data-delay="50" data-hover="dropdown"><span>
-                  Support
-                </span></a></li>
-<li class=""><a href="#contact" class="dropdown-toggle" data-delay="50" data-hover="dropdown"><span>
-                  Contact
-                </span></a></li>
-</ul></div>
+                        <li class="">
+                            <a href="#contact" class="dropdown-toggle" data-delay="50" data-hover="dropdown">
+                                <span>
+                                    Contact
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
+    <div id="top"></div>
     <a name="top"></a>
-            <div class="jumbotron jumbotron-full-height light">
+            <div id="flagship" class="jumbotron jumbotron-full-height light">
                 <h1>Responsive Payment Services</h1>
                 <p class="lead hidden-xs">You're delivered what matters to you the most.</p>
                 <img class="img-responsive" src="images/support.jpg"></img>
                 <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>-->
             </div>
-            <div class="jumbotron jumbotron-full-height light">
+            <div id="paymentProcessing" class="jumbotron jumbotron-full-height light">
                 <h1>Payment Processing</h1>
                 <p class="lead hidden-xs">You're empowered with modern payment tools your customers expect.</p>
                 <img class="img-responsive" src="images/consumer.jpg"></img>
                 <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>-->
             </div>
-            <div class="jumbotron jumbotron-full-height light">
-                <h1>Real-time Reporting</h1>
+            <div id="realtimeReporting" class="jumbotron jumbotron-full-height light">
+                <h1>Simple Reconciliation</h1>
                 <p class="lead hidden-xs">You're always informed with over 60 comprehensive payments reports.</p>
                 <img class="img-responsive" src="images/reconciliation.jpg"></img>
                 <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>-->
             </div>
-            <div class="jumbotron jumbotron-full-height light">
-                <h1>Flexible administrative tools</h1>
-                <p class="lead hidden-xs">You're provided a pliable payments system that bends to your processes.</p>
+            <div id="flexbileTools" class="jumbotron jumbotron-full-height light">
+                <h1>Flexible Administrative Tools</h1>
+                <p class="lead hidden-xs">You're provided a pliable payments platform that bends to your processes.</p>
                 <img class="img-responsive" src="images/flexbile.jpg"></img>
                 <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>-->
             </div>
@@ -108,32 +106,321 @@
                 <h1>Built for savvy consumers</h1>
                 <p class="lead hidden-xs">Your customers are empowered with the payment options they expect.</p>
                 <img class="img-responsive" src="images/consumer.jpg"></img>
-                <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>-->
+                <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
             </div>-->
-            <div class="jumbotron jumbotron-full-height light">
+            <div id="customerService" class="jumbotron jumbotron-full-height light">
                 <h1>Dedicated Customer Service</h1>
                 <p class="lead hidden-xs">You're only a phone call away from payments experts.</p>
                 <img class="img-responsive" src="images/responsive.jpg"></img>
                 <!--<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>-->
             </div>
-            <div class="jumbotron jumbotron-full-height light">
+            <div id="callToAction" class="jumbotron jumbotron-full-height light">
                 <h1 class="hidden-xs">We're just waiting for your call</h1>
                 <p class="lead hidden-xs">Get in touch with an expert now.</p>
                 <img class="img-responsive" src="images/salesperson.jpg"></img>
-                <p><a class="btn btn-lg btn-success" href="#">Get in touch</a></p>
+                <br />
+                <p><a id="firstCall" class="btn btn-success btn-lg" href="#">Get in touch</a></p>
             </div>
-
         <div class="marketing container">
+            <a name="solution"></a>
+            <div id="solution"></div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h1>"CSI was founded with a core principle: Clients matter the most."</h1>
+                    <img class="img-responsive center-block img-thumbnail" src="images/group.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="text-success" style="text-align:center"><em>"CSI was founded with a core principle: Clients matter the most."</em></h1>
                     <h4 class="pull-right">- Gene Valentino, CEO</h4>
+                </div>
+            </div>
+            <br />
+            <br />
+             <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="center-content">We offer the payment options your customers expect</h1>
                 </div>
             </div>
             <br />
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h1>Putting clients first is what has allowed us to be the most operationaly efficient amongst our competitors.</h1>
+                    <img class="img-responsive center-block" src="images/visa.png" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img class="img-responsive center-block" src="images/amex.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                    <img class="img-responsive center-block" src="images/mastercard.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img class="img-responsive center-block" src="images/discover.png" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img class="img-responsive center-block" src="images/echeck.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                    <img class="img-responsive center-block" src="images/dinersclub.png" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-4 col-lg-offset-4 col-sm-offset-3">
+                    <figure class="center-block center-content">
+                        <i class="fa fa-phone fa-5x text-danger"></i>
+                        <p>Phone</p>
+                    </figure>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="center-block center-content">
+                        <i class="fa fa-globe fa-5x text-primary"></i>
+                        <p>Web</p>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-4 col-lg-offset-4">
+                    <figure class="center-block center-content">
+                        <i class="fa fa-building-o fa-5x text-success"></i>
+                        <p>Point of sale</p>
+                    </figure>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="center-content">... the way they want to use them.</h3>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <figure class="center-block center-content">
+                        <i class="fa fa-refresh fa-5x text-success"></i>
+                        <p>Recurring Billing</p>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-4 col-lg-offset-4">
+                    <figure class="center-block center-content">
+                        <i class="fa fa-mobile-phone fa-5x text-primary"></i>
+                        <p>Mobile</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-4 col-lg-offset-4 col-sm-offset-3">
+                    <figure class="center-block center-content">
+                        <i class="fa fa-bullhorn fa-5x text-danger"></i>
+                        <p>IVR</p>
+                    </figure>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="center-content">Accept merchant cards and eChecks at no cost to you</h1>
+                </div>
+            </div>
+            <br />
+            <div class="row center-content">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure>
+                        <i class="fa fa-rocket fa-5x text-success"></i>
+                        <p>Devices</p>
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure>
+                        <i class="fa fa-cloud-download fa-5x text-success"></i>
+                        <p>Updates</p>
+                    </figure>
+                </div>
+            </div>
+            <br />
+            <div class="row center-content">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+                    <figure>
+                        <i class="fa fa-magic fa-5x text-success"></i>
+                        <p>Software</p>
+                    </figure>
+                </div>
+            </div>
+            <br />
+            <div class="row center-content">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure>
+                        <i class="fa fa-wrench fa-5x text-success"></i>
+                        <p>Maintenance</p>
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <figure>
+                        <i class="fa fa-briefcase fa-5x text-success"></i>
+                        <p>Setup</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+                    <figure>
+                        <i class="fa fa-flag-checkered fa-5x text-success"></i>
+                        <p>Training</p>
+                    </figure>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="center-content">We mean it! $0 Period.</h1>
+                    <h1 class="center-content hidden-xs hidden-sm"><small>How? Flexible fee models.</small></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2>Convenience Fee <small><i class="fa fa-star text-warning"></i></small></h2>
+                    <ul>
+                        <li>Direct cost to you is $0</li>
+                        <li>Fee is passed to customer</li>
+                        <li>We ensure customer is always aware of fee</li>
+                        <li><i class="fa fa-star text-warning"></i> Our most popular choice</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2 class="center-content">or</h2>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2>Absorbed Fee</h2>
+                    <ul>
+                        <li>Fee is paid by you</li>
+                        <li>Incorporate fee cost into your cost of goods</li>
+                        <li>Your customer never knows the difference between cash and credit card.</li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="center-content">Simple Settlement</h1>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> 24 Hour Batches</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> Cards & Checks Separate</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> Settlements always match reports</h3>
+                </div>
+            </div>
+            <br />
+            <br />
+
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="center-content">Industry-Leading Customer Service</h1>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> Talk to a live expert in moments. Not hours.</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> Work with the same expert, from notification to resolution.</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> <span class="text-success">96%</span> of service calls are resolved within 2 days.</h3>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <h1 class="center-content">Industry-Standard Security</h1>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> PCI DSS Level 1 Service Provider.</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> SSAE-16 Compliant.</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> NACHA Compliant.</h3>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3><i class="fa fa-check text-success"></i> Internal and external penetration tests.</h3>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="center-content"><strong>That's how we do payments differently.</strong></h1>
+                    <h1 class="center-content"><small>Let's figure out how you can start accepting payments today, your way.</small></h1>
+                    <h1 class="center-content"><a id="secondCall" class="btn btn-primary btn-lg" href="#"><i class="fa fa-fw fa-pencil"></i>Tell us about you</a></h1>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div id="about"></div>
+            <a name="about"></a>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img class="img-responsive center-block img-thumbnail" src="images/group-silly.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="text-success" style="text-align:center"><em>"CSI was founded with a core mission: To adapt to the needs of clients."</em></h1>
+                    <h4 class="pull-right">- Gene Valentino, CEO</h4>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="pull-content-right">Putting clients first is what has allowed us to be the most operationaly efficient amongst our competitors.</h2>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="pull-content-right">Putting clients first is what has allowed us to be the most operationaly efficient amongst our competitors.</h2>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <figure>
@@ -142,6 +429,33 @@
                     </figure>
                 </div>
             </div>
+            <br />
+            <br/>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <figure>
+                        <img class="center-block" src="images/efficiency_graph.jpg" />
+                        <p style="text-align:center">Amount ($) per transaction.</p>
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="pull-content-right">It's the reason we only make money when you make money. We share in your profitability.</h2>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <figure>
+                        <img class="center-block" src="images/efficiency_graph.jpg" />
+                        <p style="text-align:center">Amount ($) per transaction.</p>
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h2 class="pull-content-right">It's the reason we only make money when you make money. We share in your profitability.</h2>
+                </div>
+            </div>
+
             <!--<div class="row">
                 <h1>Chat with one of these experts:</h4>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -161,10 +475,57 @@
                 </div>
             </div>-->
         </div>
-                    
+
         <div class="footer">
-            <p>♥ from the Yeoman team</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                </div>
+            </div>
         </div>
+
+        <div id="salesModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Let's talk. Fill this out so we can start crafting your solution.</h4>
+              </div>
+              <div class="modal-body">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="What you like to be called">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" placeholder="An email so we can be friends">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Phone</label>
+                    <input type="email" class="form-control" placeholder="A good contact number so we can chat">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Company</label>
+                    <input type="email" class="form-control" placeholder="What company do you represent?">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Ask us a question</label>
+                    <input type="email" class="form-control" placeholder="ex. How quickly do you return funds?">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Send</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
@@ -172,7 +533,7 @@
         <!-- endbower -->
         <!-- endbuild -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -180,7 +541,7 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+        </script>-->
 
         <!-- build:js scripts/plugins.js -->
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
